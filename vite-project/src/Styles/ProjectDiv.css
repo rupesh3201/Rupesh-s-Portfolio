@@ -1,0 +1,5 @@
+.ProjectDivHover:hover {
+    font-size: 1.25rem; /* Specify a specific size increment */
+    transition: font-size 0.3s ease-in-out; /* Smooth transition */
+  }
+  
