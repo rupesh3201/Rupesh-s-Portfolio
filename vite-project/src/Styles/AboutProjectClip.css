@@ -1,0 +1,5 @@
+/* styles.css */
+.clip-circle-custom {
+    clip-path: circle(50.0% at 0 100%);
+    
+}
