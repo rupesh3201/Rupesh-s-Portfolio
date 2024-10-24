@@ -1,0 +1,39 @@
+.custom-after::after {
+    content: "Rupesh Mandage";
+    position: absolute;
+    left: 0;
+    top: 100%; /* Initially below the element */
+    color: white;
+    padding: 5px;
+    white-space: nowrap; /* Default to no wrapping */
+    opacity: 0; /* Hidden by default */
+    transition: top 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    font-size: 2rem; /* Default font size */
+  }
+  
+  .hoverDiv:hover .custom-after::after {
+    top: 130%; /* Move down on hover */
+    opacity: 1; /* Fade in */
+  }
+  
+  .hoverDiv:hover .custom-after {
+    transform: translateY(-130%); /* Move 'TR' completely out of sight */
+    transition: transform 0.2s ease-in-out; /* Smooth hover-in effect */
+  }
+  
+  /* Reverse the hover effect - bring TR back down */
+  .hoverDiv .custom-after {
+    transform: translateY(0); /* Default position */
+    transition: transform 0.2s ease-in-out; /* Smooth return */
+  }
+  
+  /* Media query for smaller screens - word wrapping */
+  @media (max-width: 640px) { /* For screens smaller than 640px */
+    .custom-after::after {
+      white-space: normal; /* Allow the text to wrap */
+      font-size: 0.9rem; /* Slightly smaller text size for mobile screens */
+      line-height: 1.2; /* Adjust line height */
+      text-align: left; /* Align text to the left */
+    }
+  }
+  
