@@ -1,4 +1,4 @@
-import  { useState } from "react"; // Import useState
+
 import PreHero from "./Pages/PreHero"; // Ensure you import PreHero
 import Hero from "./Pages/Hero";
 import AboutPage from "./Pages/AboutPage";
