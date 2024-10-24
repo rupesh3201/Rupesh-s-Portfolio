@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import PropTypes from "prop-types"; // Import PropTypes for validation
 import gsap from "gsap";
 
 const PreHero = ({ onLoadComplete }) => {
@@ -25,6 +26,11 @@ const PreHero = ({ onLoadComplete }) => {
       <h1 className="text-4xl">{percentage}%</h1>
     </div>
   );
+};
+
+// Define prop validation using PropTypes
+PreHero.propTypes = {
+  onLoadComplete: PropTypes.func.isRequired, // Ensure that onLoadComplete is a required function
 };
 
 export default PreHero;

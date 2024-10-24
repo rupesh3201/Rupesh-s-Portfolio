@@ -1,5 +1,5 @@
-
-import PreHero from "./Pages/PreHero"; // Ensure you import PreHero
+import { useState } from "react"; // Make sure to import useState
+import PreHero from "./Pages/PreHero";
 import Hero from "./Pages/Hero";
 import AboutPage from "./Pages/AboutPage";
 import ProjectsPage from "./Pages/ProjectsPage";
@@ -18,7 +18,7 @@ const App = () => {
     <>
       <div>
         {isLoading ? (
-          <PreHero onLoadComplete={handleLoadComplete} /> // Render PreHero while loading
+          <PreHero onLoadComplete={handleLoadComplete} /> // Pass handleLoadComplete to PreHero
         ) : (
           <>
             <Navbar />

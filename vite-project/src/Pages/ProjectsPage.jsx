@@ -1,4 +1,4 @@
-import React from "react";
+
 import ProjectDiv from "../Components/ProjectDiv";
 import { gsap } from "gsap"; // Import gsap
 import { useGSAP } from "@gsap/react";

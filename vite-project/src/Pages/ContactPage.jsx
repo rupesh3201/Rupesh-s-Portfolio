@@ -1,4 +1,4 @@
-import React from "react";
+
 import Button from "../Components/Button.jsx";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
@@ -146,7 +146,7 @@ const ContactPage = () => {
 
           {/* Chat Text */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-wide leading-relaxed chatH1">
-            Let's have a chat!
+            Lets have a chat!
           </h1>
         </div>
 

@@ -90,7 +90,7 @@ const AboutPage = () => {
           </div>
           <div className="md:w-[40%] w-full flex items-center justify-center">
             <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl aboutMeContent">
-              I’m Tanmay Ramteke, a passionate 23-year-old web developer and technology enthusiast. With a deep love for designing and building visually captivating and user-friendly websites, I'm always excited about new challenges and eager to collaborate on projects that push boundaries and deliver exceptional user experiences.
+              I’m Tanmay Ramteke, a passionate 23-year-old web developer and technology enthusiast. With a deep love for designing and building visually captivating and user-friendly websites, Im always excited about new challenges and eager to collaborate on projects that push boundaries and deliver exceptional user experiences.
             </h1>
           </div>
         </div>
